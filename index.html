@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Azul</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="telefono">
+
+        <div class="card">
+
+            <h1>Formulario</h1>
+            <p class="subtitulo">
+                Ingresa tus datos
+            </p>
+
+            <label>Nombre</label>
+            <input 
+                type="text"
+                id="nombre"
+                placeholder="Escribe tu nombre"
+            >
+
+            <label>Edad</label>
+            <input 
+                type="number"
+                id="edad"
+                placeholder="Escribe tu edad"
+            >
+
+            <button onclick="mostrarDatos()">
+                Mostrar datos
+            </button>
+
+            <div id="resultado" class="resultado">
+                Aquí aparecerán tus datos...
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
